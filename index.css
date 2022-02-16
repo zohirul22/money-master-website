@@ -1,0 +1,39 @@
+h5{
+height: 90px;
+padding: 0  120px ;
+background-color: rgba(214, 204, 204, 0.897);
+border-radius: 5px;
+border: 1px solid wheat;
+font-size: 20px;
+margin-left: 20px;
+
+}
+.head-line{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.heading{
+   font-size:20px ;
+   margin-top: 2px;
+   margin-bottom: 15px;
+}
+button{
+    width: 200px;
+    font-weight: bold;
+    margin: 20px  0px;
+   
+}
+.save{
+    background-color: rgb(171, 185, 185);
+    border-radius: 5px;
+    padding: 5px 40px;
+    font-size: 26px;
+    
+}
+.first{
+    width: 500px;
+    height: 700px;
+}
+.second{
+    height: 700px;
+}
