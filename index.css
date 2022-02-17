@@ -1,40 +1,57 @@
-/* h5{
-height: 90px;
-width: 150px;
-padding: 0  120px ;
-background-color: rgba(214, 204, 204, 0.897);
-border-radius: 5px;
-border: 1px solid wheat;
-font-size: 20px;
-margin-left: 20px;
+/************calcu css************ */
+.calcu{
+    color: blue;
+    font-weight: bolder;
+}
+/************calcu css************ */
 
-} */
+/************head css************ */
+
 .head-line{
     font-size: 30px;
     font-weight: bolder;
 }
+
 .heading{
    font-size:20px ;
    margin-top: 2px;
    margin-bottom: 15px;
 }
+/************head css************ */
+
+/**************input All css************** */
+input{
+   padding:5px 15px ;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(243, 248, 246);
+    color: blue;
+    font-size: 20px;
+    border-radius: 5px;  
+}
+/**************input All css************** */
+
 button{
     width: 200px;
     font-weight: bold;
     margin: 20px  0px;
    
 }
-.save{
-    background-color: rgb(171, 185, 185);
-    border-radius: 5px;
-    padding: 5px 40px;
-    font-size: 26px;
-    
-}
+
+/****************** Two coloum **************** */
 .first{
     width: 500px;
-    height: 700px;
+    height: 850px;
 }
 .second{
-    height: 700px;
+    height: 850px;
+    width: 500px;
 }
+/****************** Two coloum **************** */
+
+/********************** Ending ******************* */
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    color: blue;
+}
+/********************** Ending ******************* */

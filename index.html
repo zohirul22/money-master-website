@@ -18,7 +18,7 @@
 
 <!----------------------------- header start----------------------- -->
     <header>
-        <h1 class="text-center fs-1 mb-3 text-success">My Money Calculate in Monthly</h1>
+        <h1 class="text-center fs-1 mb-3 text-success"> <span class="calcu">**</span>My Money <span class="calcu">Calculate</span> in Monthly<span class="calcu">**</span>
     </header>
 <!----------------------------- header end----------------------- -->
 
@@ -26,10 +26,10 @@
 <!----------------------------- main start----------------------- -->
       <main class="container  text-center">
 <!----------------------------- row satrt----------------------- -->
- <div class="row gx-5 ">
+ <div class="row gx-2 ">
 <!-----------------------------  frist div----------------------- -->
           <div class="col-lg-6 col-sm-12  ">
-              <img class=" first  shadow-lg text-center "  src="img/img2.png" alt="">
+              <img class=" first  shadow-lg text-center img-fluid "  src="img/img2.png" alt="">
           </div>
 <!----------------------------- 2nd div----------------------- -->
           <div class="second  col-lg-6 col-sm-12  bg-light shadow-lg p-3">
@@ -62,36 +62,39 @@
                     </div>
                 </div>
 
-                <button id="calculet-btn"   class="btn bg-primary fs-4 text-light" >Calculate</button>
+                <button id="calculet-btn"   class="btn fs-4 bg-info text-light" >Calculate</button>
 
          <div class="mb-4">
-            <h1 class="d-inline heading">Total Expenses :</h1>
+            <h1 class="d-inline heading fs-1">Total Expenses :</h1>
+              
+            <span class="fs-1" id="total-expen"></span>
 
-            <input  id="total-expen"  type="text" placeholder="monthly total Expenses">
+            <!-- <input  id="total-expen"  type="text" placeholder="monthly total Expenses"> -->
          </div>
 
          <div class="mb-4">
-            <h1 class="d-inline heading">Balance :</h1>
-            <input  id="total-balance"  type="text" placeholder="monthly total Remaining">
+            <h1 class="d-inline heading fs-1">Balance :</h1>
+            <span class="fs-1"  id="total-balance"></span>
+            
          </div>
             
     
            <div class="text-center">
             <span class="fs-3 me-2">save</span>
             <input  id="save-money"  type="text" placeholder="monthly total save">
-            <span class="fs-3 mx-2">%</span>
-            <span><button  class="btn bg-primary fs-5 text-light" >save</button></span>
+            <span class="fs-3 mx-2"></span>
+            <span><button id="save-btn"  class="btn fs-5 bg-info text-light" >save</button></span>
            </div> 
             
             
            <div class="mb-4">
-            <h1 class="d-inline heading">Saving Amount :</h1>
-            <h1 class="d-inline fs-5">$100</h1>
+            <h1 class="d-inline heading title">Saving Amount :</h1>
+            <h1 id="saving_account" class="d-inline fs-3"></h1>
          </div>
 
          <div class="mb-4">      
-            <h1 class="d-inline heading">Remaining Balance :</h1>
-            <h1 class="d-inline fs-5">$100</h1>
+            <h1 class="d-inline heading title">Remaining Balance :</h1>
+            <h1 id="finis-balance" class="d-inline fs-3 remain"></h1>
          </div>   
             
             </div>
